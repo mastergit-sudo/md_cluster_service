@@ -1,0 +1,16 @@
+# İzlenecek klasör (absolute path)
+input_dir: "C:\\watched\\incoming"
+# Hedef ana klasör (cluster klasörleri burada oluşturulacak)
+output_dir: "C:\\watched\\clusters"
+# Çalışma aralığı (saniye)
+poll_interval: 40
+# İstenen varsayılan küme sayısı (dosya sayısına göre küçültülür)
+n_clusters: 6
+# Minimum dosya sayısı kümeleme için (altındaysa taşıma klasik bir klasöre yapılır)
+min_files_for_clustering: 3
+# Log dosyası
+log_file: "C:\\watched\\md_cluster_service.log"
+# Eğer True ise çıktı klasörlerindeki ad cluster_1 yerine top kelimeler ile adlandırılır
+name_clusters_by_keywords: true
+# Her dosya işlendikten sonra yedeklenmiş orijinalin tutulacağı klasör (opsiyonel)
+archive_dir: "C:\\watched\\archive"
